@@ -2,6 +2,20 @@
 
 ![](https://i.redd.it/hup9hsnlw7311.jpg)
 
+- [Pokedex](#pokedex)
+  * [Descrição do Problema](#descri--o-do-problema)
+  * [Funcionalidades](#funcionalidades)
+  * [Requisitos](#requisitos)
+  * [API](#api)
+    + [`GET /pokemons`](#-get--pokemons-)
+    + [`GET /pokemons/:name`](#-get--pokemons--name-)
+    + [`POST /users`](#-post--users-)
+    + [`GET /users/:username`](#-get--users--username-)
+    + [`POST https://pokedex20201.herokuapp.com/users/:username/starred/:pokemon`](#-post-https---pokedex20201herokuappcom-users--username-starred--pokemon-)
+    + [`DELETE /users/:username/starred/:pokemon`](#-delete--users--username-starred--pokemon-)
+  * [Dicas](#dicas)
+  * [Exemplos](#exemplos)
+
 ## Descrição do Problema
 
 Desenvolver uma aplicação em ReactJS para exploração de _pokemons_. O desenvolvimento do trabalho tem como objetivo colocar em prática os conceitos vistos em aula, bem como providenciar um exemplo de aplicação de escala maior para treinar ReactJS.
