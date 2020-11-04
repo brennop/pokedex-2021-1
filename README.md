@@ -2,19 +2,18 @@
 
 ![](https://i.redd.it/hup9hsnlw7311.jpg)
 
-- [Pokedex](#pokedex)
-  * [Descrição do Problema](#descri--o-do-problema)
-  * [Funcionalidades](#funcionalidades)
-  * [Requisitos](#requisitos)
-  * [API](#api)
-    + [`GET /pokemons`](#-get--pokemons-)
-    + [`GET /pokemons/:name`](#-get--pokemons--name-)
-    + [`POST /users`](#-post--users-)
-    + [`GET /users/:username`](#-get--users--username-)
-    + [`POST https://pokedex20201.herokuapp.com/users/:username/starred/:pokemon`](#-post-https---pokedex20201herokuappcom-users--username-starred--pokemon-)
-    + [`DELETE /users/:username/starred/:pokemon`](#-delete--users--username-starred--pokemon-)
-  * [Dicas](#dicas)
-  * [Exemplos](#exemplos)
+- [Descrição do Problema](#descri--o-do-problema)
+- [Funcionalidades](#funcionalidades)
+- [Requisitos](#requisitos)
+- [API](#api)
+  * [`GET /pokemons`](#get-pokemons)
+  * [`GET /pokemons/:name`](#get-pokemonsname)
+  * [`POST /users`](#post-users)
+  * [`GET /users/:username`](#get-usersusername)
+  * [`POST https://pokedex20201.herokuapp.com/users/:username/starred/:pokemon`](#post-usersusernamestarredpokemon)
+  * [`DELETE /users/:username/starred/:pokemon`](#delete-usersusernamestarredpokemon)
+- [Dicas](#dicas)
+- [Exemplos](#exemplos)
 
 ## Descrição do Problema
 
@@ -152,7 +151,7 @@ GET https://pokedex20201.herokuapp.com/users/ash_ketchum
 
 ---
 
-### `POST https://pokedex20201.herokuapp.com/users/:username/starred/:pokemon`
+### `POST /users/:username/starred/:pokemon`
 
 Acrescenta o pokemon com nome `:pokemon` à lista de favoritos do usuário `:username`. Não precisa de argumentos adicionais no corpo.
 
