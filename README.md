@@ -31,7 +31,7 @@ Desenvolver uma aplicação em ReactJS para exploração de _pokemons_. O desenv
 - O projeto deverá ser desenvolvido com a ajuda do [Git](https://brennop.github.io/wiki/#/git/guia). O repositório do projeto deverá ser subido para o GitHub.
 - Ao final do projeto, a aplicação deverá ser hospedada em algum serviço de hospedagem, como o [Netlify](https://www.netlify.com/).
 - O projeto deverá ser executado em _dupla_.
-- O link do repositório do projeto e da aplicação hospedada deverão ser entregues até dia 22/11/2020.
+- O link do repositório do projeto e da aplicação hospedada deverão ser entregues até dia (a definir).
 
 ## API
 
@@ -190,4 +190,5 @@ DELETE https://pokedex20201.herokuapp.com/users/ash_ketchum/starred/pikachu
 - https://pokedex.org/
 - https://dapedofonpokedex.netlify.app
 - https://gifted-poitras-7dd2d5.netlify.app/
-- https://pokedex.brn.wtf/
+- https://pokedex.drenno.me/
+- https://elegant-pokedex.netlify.app/
